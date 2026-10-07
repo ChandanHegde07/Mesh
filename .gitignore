@@ -1,0 +1,17 @@
+# Compiled binaries
+/mesh
+/dist/
+
+# Go build and test output
+*.test
+*.out
+
+# Local benchmark output
+/results/
+
+# OS and editor junk
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
