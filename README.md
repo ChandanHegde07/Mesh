@@ -20,6 +20,13 @@ overlay network.
 | Delivery | Best effort, no acknowledgements |
 | Validation | Unit, integration, race, fuzz, reproducible loopback benchmark |
 
+## Interactive explorer
+
+`Mesh Explorer.html` is a self-contained, dependency-free page that opens in any browser. Pick a
+topology (ring, random, or linear) and a size (5, 10, 25, or 50 nodes), then send a message or knock
+out a node and watch the route recompute. It also includes the wire-frame reference, the benchmark
+numbers, and the limitations described below.
+
 ## Repository layout
 
 ```
